@@ -1,6 +1,6 @@
 {
   "name": "griddy-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A grid.",
   "main": "index.js",
   "scripts": {
