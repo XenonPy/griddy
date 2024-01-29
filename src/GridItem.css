@@ -1,68 +1,66 @@
 :root {
-    --dark-bg: #333;
-    --dark-text: #fff;
-    --light-bg: #fff;
-    --light-text: #333;
-  }
-  
-  .griddy-grid-item {
-    padding: 16px;
-    border: 1px solid #ddd;
-    text-align: center;
-  }
-  
-  .griddy-position-top-center {
-    grid-column: center;
-    grid-row: top;
-  }
-  
-  .griddy-position-top-left {
-    grid-column: start;
-    grid-row: top;
-  }
-  
-  .griddy-position-top-right {
-    grid-column: end;
-    grid-row: top;
-  }
-  
-  .griddy-position-center-left {
-    grid-column: start;
-    grid-row: center;
-  }
-  
-  .griddy-position-center-center {
-    grid-column: center;
-    grid-row: center;
-  }
-  
-  .griddy-position-center-right {
-    grid-column: end;
-    grid-row: center;
-  }
-  
-  .griddy-position-bottom-left {
-    grid-column: start;
-    grid-row: bottom;
-  }
-  
-  .griddy-position-bottom-center {
-    grid-column: 2/3;
-    /* grid-row: ; */
-  }
-  
-  .griddy-position-bottom-right {
-    grid-column: end;
-    grid-row: bottom;
-  }
-  
-  .griddy-theme-dark {
-    background-color: var(--dark-bg);
-    color: var(--dark-text);
-  }
-  
-  .griddy-theme-light {
-    background-color: var(--light-bg);
-    color: var(--light-text);
-  }
-  
+  --dark-bg: #333;
+  --dark-text: #fff;
+  --light-bg: #fff;
+  --light-text: #333;
+}
+
+.griddy-grid-item {
+  padding: 1vw;
+  text-align: center;
+}
+
+.griddy-position-top-center {
+  grid-column: center;
+  grid-row: top;
+}
+
+.griddy-position-top-left {
+  grid-column: start;
+  grid-row: top;
+}
+
+.griddy-position-top-right {
+  grid-column: end;
+  grid-row: top;
+}
+
+.griddy-position-center-left {
+  grid-column: start;
+  grid-row: center;
+}
+
+.griddy-position-center-center {
+  grid-column: center;
+  grid-row: center;
+}
+
+.griddy-position-center-right {
+  grid-column: end;
+  grid-row: center;
+}
+
+.griddy-position-bottom-left {
+  grid-column: start;
+  grid-row: bottom;
+}
+
+.griddy-position-bottom-center {
+  grid-column: center;  /* Fix typo: change 'end' to 'center' */
+  grid-row: bottom;    /* Fix typo: change 'center' to 'bottom' */
+}
+
+.griddy-position-bottom-right {
+  grid-column: end;
+  grid-row: bottom;
+}
+
+.griddy-theme-dark {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+.griddy-theme-light {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+}
