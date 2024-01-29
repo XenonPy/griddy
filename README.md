@@ -1,2 +1,2 @@
 # griddy
-Griddy is a modern React not-just-grid system.
+Griddy is a React 3x3 grid. No features, just a grid.
