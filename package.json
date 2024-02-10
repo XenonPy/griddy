@@ -1,6 +1,6 @@
 {
   "name": "griddy-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple 3x3 React grid.",
   "main": "src/index.js",
   "scripts": {
